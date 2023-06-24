@@ -41,6 +41,10 @@ namespace ConsoleApp
             {
                 return "player1 wins";
             }
+            else if(p1 ==p2)
+            {
+                return "Draw";
+            }
             else
             {
                 return "player2 wins";
